@@ -15,7 +15,7 @@ public class SpringLearningApplication {
 		
 		System.out.println("result " +  stringResult);
 		
-//		SpringApplication.run(SpringLearningApplication.class, args);
+		SpringApplication.run(SpringLearningApplication.class, args);
 	}
 
 }
