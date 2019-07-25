@@ -8,14 +8,14 @@ public class SpringLearningApplication {
 
 	public static void main(String[] args) {
 		
-		BirarySearchImpl binarySearch = new BirarySearchImpl();
+		BirarySearchImpl binarySearch = new BirarySearchImpl( new BubbleSortAlgorithm());
 		
 		int result = binarySearch.binarySearch(new int[] {124,4,6}, 3);
 		String stringResult = Integer.toString(result);
 		
 		System.out.println("result " +  stringResult);
 		
-		SpringApplication.run(SpringLearningApplication.class, args);
+//		SpringApplication.run(SpringLearningApplication.class, args);
 	}
 
 }
