@@ -1,7 +1,12 @@
 package com.venus.srping.basics.springlearning;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class BirarySearchImpl {
 	
+	@Autowired
 	private SortAlgorithm sortAlgorithm;
 	
 	 //right click -> source
